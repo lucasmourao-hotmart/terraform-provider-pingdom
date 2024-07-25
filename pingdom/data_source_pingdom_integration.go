@@ -50,7 +50,7 @@ func dataSourcePingdomIntegrationRead(ctx context.Context, d *schema.ResourceDat
 	}
 	var found *pingdomext.IntegrationGetResponse
 	for _, integration := range integrations {
-		if integration.UserData["name"] == name {
+		if integration.UserData.Name == name {
 			log.Printf("Integration: %v", integration)
 			found = &integration
 			break
@@ -68,11 +68,11 @@ func dataSourcePingdomIntegrationRead(ctx context.Context, d *schema.ResourceDat
 		return diag.FromErr(err)
 	}
 
-	if err := d.Set("name", found.UserData["name"]); err != nil {
+	if err := d.Set("name", found.UserData.Name); err != nil {
 		return diag.FromErr(err)
 	}
 	if found.Name == WEBHOOK {
-		if err := d.Set("url", found.UserData["url"]); err != nil {
+		if err := d.Set("url", found.UserData.Url); err != nil {
 			return diag.FromErr(err)
 		}
 	}

@@ -179,11 +179,11 @@ func resourcePingdomIntegrationRead(ctx context.Context, d *schema.ResourceData,
 		return diag.FromErr(err)
 	}
 
-	if err := d.Set("name", integration.UserData["name"]); err != nil {
+	if err := d.Set("name", integration.UserData.Name); err != nil {
 		return diag.FromErr(err)
 	}
 	if integration.Name == WEBHOOK {
-		if err := d.Set("url", integration.UserData["url"]); err != nil {
+		if err := d.Set("url", integration.UserData.Url); err != nil {
 			return diag.FromErr(err)
 		}
 	}
