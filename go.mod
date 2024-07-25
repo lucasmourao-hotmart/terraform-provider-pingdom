@@ -1,6 +1,6 @@
 module github.com/lucasmourao-hotmart/terraform-provider-pingdom
 
-go 1.19
+go 1.22
 
 require (
 	github.com/lucasmourao-hotmart/go-pingdom v1.0.0
