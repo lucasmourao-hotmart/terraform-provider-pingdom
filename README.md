@@ -19,8 +19,8 @@ This supports Pingdom API v3.1: [API reference docs](https://docs.pingdom.com/ap
 terraform {
   required_providers {
     pingdom = {
-      source  = "drfaust92/pingdom"
-      version = "~> 1.2"
+      source  = "lucasmourao-hotmart/pingdom"
+      version = "~> 1.0"
     }
   }
 }
@@ -49,8 +49,8 @@ You don't need to declare those values in your code:
 terraform {
   required_providers {
     pingdom = {
-      source  = "drfaust92/pingdom"
-      version = "~> 1.2"
+      source  = "lucasmourao-hotmart/pingdom"
+      version = "~> 1.0"
     }
   }
 }

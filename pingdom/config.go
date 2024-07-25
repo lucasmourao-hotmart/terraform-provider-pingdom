@@ -5,8 +5,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/DrFaust92/go-pingdom/pingdom"
-	"github.com/DrFaust92/go-pingdom/pingdomext"
+	"github.com/lucasmourao-hotmart/go-pingdom/pingdom"
+	"github.com/lucasmourao-hotmart/go-pingdom/pingdomext"
 )
 
 // Config respresents the client configuration

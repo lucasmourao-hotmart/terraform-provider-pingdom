@@ -1,9 +1,9 @@
-module github.com/DrFaust92/terraform-provider-pingdom
+module github.com/lucasmourao-hotmart/terraform-provider-pingdom
 
 go 1.19
 
 require (
-	github.com/DrFaust92/go-pingdom v1.5.0
+	github.com/lucasmourao-hotmart/go-pingdom v1.0.0
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.30.0
 	github.com/mitchellh/mapstructure v1.5.0
 )

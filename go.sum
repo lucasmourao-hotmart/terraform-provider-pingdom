@@ -1,6 +1,6 @@
 dario.cat/mergo v1.0.0 h1:AGCNq9Evsj31mOgNPcLyXc+4PNABt905YmuqPYYpBWk=
-github.com/DrFaust92/go-pingdom v1.5.0 h1:DSG13w59tQ4zvv6fNMy845ogGF+6xEjZKsZSV77HUaA=
-github.com/DrFaust92/go-pingdom v1.5.0/go.mod h1:RN3TNqToiG8ECbjymFJKrw6NCpePVknycuvVlt63JnU=
+github.com/lucasmourao-hotmart/go-pingdom v1.5.0 h1:DSG13w59tQ4zvv6fNMy845ogGF+6xEjZKsZSV77HUaA=
+github.com/lucasmourao-hotmart/go-pingdom v1.5.0/go.mod h1:RN3TNqToiG8ECbjymFJKrw6NCpePVknycuvVlt63JnU=
 github.com/Microsoft/go-winio v0.6.1 h1:9/kr64B9VUZrLm5YYwbGtUJnMgqWVOdUAXu6Migciow=
 github.com/ProtonMail/go-crypto v0.0.0-20230828082145-3c4c8a2d2371 h1:kkhsdkhsCvIsutKu5zLMgWtgh9YxGCNAw8Ad8hjwfYg=
 github.com/ProtonMail/go-crypto v0.0.0-20230828082145-3c4c8a2d2371/go.mod h1:EjAoLdwvbIOoOQr3ihjnSoLZRtE8azugULFRteWMNc0=

@@ -3,12 +3,13 @@ package pingdom
 import (
 	"context"
 	"fmt"
-	"github.com/DrFaust92/go-pingdom/pingdom"
-	"github.com/DrFaust92/go-pingdom/solarwinds"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
-	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"log"
 	"time"
+
+	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
+	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
+	"github.com/lucasmourao-hotmart/go-pingdom/pingdom"
+	"github.com/lucasmourao-hotmart/go-pingdom/solarwinds"
 )
 
 func resourcePingdomOccurrences() *schema.Resource {
